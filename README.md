@@ -16,7 +16,7 @@ Starting from a raw 111-column export, this project narrows to the columns that 
 
 ## Findings
 
-1. **Grade predicts default risk cleanly, with no exceptions.** A fully monotonic increase from grade A (6.0%) to grade G (32.0%) — every grade well-sampled (minimum 316 loans).
+1. **Grade predicts default risk cleanly, with no exceptions.** A fully monotonic increase from grade A (6.0%) to grade G (32.0%)  every grade well-sampled (minimum 316 loans).
 2. **Income matters, but the real effect is modest.** A $7,600 gap between defaulted and repaid borrowers ($62,427 vs. $70,049) — a real but subtle effect, since actual default risk is driven by many interacting factors, not one dominant signal.
 3. **Small business loans default at nearly double the rate of other purposes.** 26.0% vs. 10–16% for most other well-sampled categories, backed by 1,828 loans — genuinely trustworthy, not small-sample noise. Likely explanation: business loans carry venture risk (the business itself can fail), while purposes like debt consolidation are backed by steadier personal income.
 4. **Loan volume grew ~2,000x in four years**, from $7,500/month (June 2007) to $31.5M/month (December 2011), with a visible contraction during the 2008 financial crisis — a real macroeconomic event showing up directly in the data.
